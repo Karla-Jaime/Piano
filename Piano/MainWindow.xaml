@@ -37,20 +37,20 @@
     </Window.Resources>
     <Grid>
 
-        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" Background="White" BorderBrush="Black" Template="{DynamicResource ButtonControlTemplate1}">
+        <Button x:Name="btnDO" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" Background="White" BorderBrush="Black" Template="{DynamicResource ButtonControlTemplate1}" Click="BtnDO_Click">
 
         </Button>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" Background="White" BorderBrush="Black" Margin="100,0,0,0" Template="{DynamicResource ButtonControlTemplate1}"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" Background="White" BorderBrush="Black" Margin="200,0,0,0" Template="{DynamicResource ButtonControlTemplate1}"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" Background="White" BorderBrush="Black" Margin="300,0,0,0" Template="{DynamicResource ButtonControlTemplate1}"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" Background="White" BorderBrush="Black" Margin="400,0,0,0" Template="{DynamicResource ButtonControlTemplate1}"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" Background="White" BorderBrush="Black" Margin="500,0,0,0" Template="{DynamicResource ButtonControlTemplate1}"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" Background="White" BorderBrush="Black" Margin="600,0,-8,0" Template="{DynamicResource ButtonControlTemplate1}"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Height="294" Background="Black" BorderBrush="Black" Margin="70,0,0,0" Template="{DynamicResource ButtonControlTemplate1}"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Height="294" Background="Black" BorderBrush="Black" Margin="169,0,0,0" Template="{DynamicResource ButtonControlTemplate1}"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Height="294" Background="Black" BorderBrush="Black" Margin="370,0,0,0" Template="{DynamicResource ButtonControlTemplate1}"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Height="294" Background="Black" BorderBrush="Black" Margin="470,0,0,0" Template="{DynamicResource ButtonControlTemplate1}"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Height="294" Background="Black" BorderBrush="Black" Margin="570,0,0,0" Template="{DynamicResource ButtonControlTemplate1}"/>
+        <Button x:Name="btnRE" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" Background="White" BorderBrush="Black" Margin="100,0,0,0" Template="{DynamicResource ButtonControlTemplate1}" Click="BtnRE_Click"/>
+        <Button x:Name="btnMI" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" Background="White" BorderBrush="Black" Margin="200,0,0,0" Template="{DynamicResource ButtonControlTemplate1}" Click="BtnMI_Click"/>
+        <Button x:Name="btnFA" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" Background="White" BorderBrush="Black" Margin="300,0,0,0" Template="{DynamicResource ButtonControlTemplate1}"/>
+        <Button x:Name="btnSOL" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" Background="White" BorderBrush="Black" Margin="400,0,0,0" Template="{DynamicResource ButtonControlTemplate1}"/>
+        <Button x:Name="btnLA" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" Background="White" BorderBrush="Black" Margin="500,0,0,0" Template="{DynamicResource ButtonControlTemplate1}"/>
+        <Button x:Name="btnSI" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" Background="White" BorderBrush="Black" Margin="600,0,-8,0" Template="{DynamicResource ButtonControlTemplate1}"/>
+        <Button x:Name="btnDO_" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Height="294" Background="Black" BorderBrush="Black" Margin="70,0,0,0" Template="{DynamicResource ButtonControlTemplate1}"/>
+        <Button x:Name="btnRE_" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Height="294" Background="Black" BorderBrush="Black" Margin="169,0,0,0" Template="{DynamicResource ButtonControlTemplate1}"/>
+        <Button x:Name="btnFA_" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Height="294" Background="Black" BorderBrush="Black" Margin="370,0,0,0" Template="{DynamicResource ButtonControlTemplate1}"/>
+        <Button x:Name="btnSOL_" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Height="294" Background="Black" BorderBrush="Black" Margin="470,0,0,0" Template="{DynamicResource ButtonControlTemplate1}"/>
+        <Button x:Name="btnLA_" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Height="294" Background="Black" BorderBrush="Black" Margin="570,0,0,0" Template="{DynamicResource ButtonControlTemplate1}"/>
         <TextBlock TextWrapping="Wrap" Text="C" Margin="20,368,624,0" TextAlignment="Center" FontFamily="Calibri" FontSize="36"/>
         <TextBlock TextWrapping="Wrap" Text="D" Margin="122,368,522,0" TextAlignment="Center" FontFamily="Calibri" FontSize="36"/>
         <TextBlock TextWrapping="Wrap" Text="E" Margin="227,368,417,0" TextAlignment="Center" FontFamily="Calibri" FontSize="36"/>
